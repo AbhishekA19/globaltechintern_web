@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="personal_portfolio.css" />
+  </head> 
+  <body>
+    <main>
+      <!--Menu Bar-->
+      <nav class="navBar">
+        <h1> PORTFOLIO</h1>
+        <div class="navigationMenu">
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect</a>
+        </div>
+      </nav>
+
+      <!--First page that contains student information-->
+      <section class="heroSection">
+        <img class="profileImage" src="Images/profile images.jpg" />
+        <div class="herosectionDetails">
+          <h1>Abhishek Andhale</h1>
+          <h3>Third year Engineering student at SITS.</h3>
+          <h5 class="email">abhishekandhale16368@gmail.com</h5>
+          <h5 class="num">+918380952609</h5>
+        </div>
+      </section>
+
+      <!-- Second page that contains persol information-->
+      <section class="aboutMe" id="aboutMe">
+        <h1>What i do...</h1>
+        <p>Hello,I am Abhishek Andhale.<br>
+          I'm a web Developer, I'm pursuing Bachelor's of Engineering in Information Technology from 
+          Sinhgad Institute Of Technology And Science in Pune.I am a quick learner and a team player,
+          and I am always eager to take on new challenges. 
+          I have completed 2 internships as a "Java Developer" and "Web Developer". 
+          I am now looking for an opportunity to bring my
+          skills and experiences to a new challenge and make a positive impact in a new environment.
+        </p>
+      </section>
+
+      <!--Third page that contains your skills and projects-->
+      <section class="skillsAndProjects">
+        <div class="skills" id="skills">
+          <h1 class="cardHeading">Skills</h1>
+          <img src="Images/c.png" title="C language" />
+          <img src="Images/c++.png" title="C++"/>
+          <img src="Images/java.png" title="java"/>
+          <img src="Images/html.png" title="HTML" />
+          <img src="Images/css.png" title="CSS" />
+        </div>
+        <div class="projects" id="projects">
+          <h1 class="cardHeading">Projects</h1>
+          <div class="projectContainer">
+            <img src="Images/instagram.jpg" />
+            <div class="projectDescription">
+              <h4>Instagram Clone</h4>
+              <p>
+                In this project I have created instagram login page by using
+                "HTML & CSS.
+                <a
+                  href="https://codesandbox.io/s/boring-oskar-40jm1j?file=/index.html&resolutionWidth=320&resolutionHeight=675"
+                  target="main"
+                  >Click Here
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="projectContainer">
+            <img src="Images/notes.jpg" />
+            <div class="projectDescription">
+              <h4>Display Notes</h4>
+              <p>
+                In this project I have created notes to store data.
+                <a
+                  href="https://codesandbox.io/s/gracious-dirac-z0psqk?file=/src/components/App.jsx"
+                  target="main"
+                  >Click Here
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Forth page that contains the form that we should connect with us-->
+      <section class="contactForm" id="contactForm">
+        <h1>Let's Connect</h1>
+        <div class="formGroup">
+          <label for="name">Enter Full Name</label><br />
+          <input type="text" id="name" placeholder="Full Name" required />
+        </div>
+
+        <div class="formGroup">
+          <lable for="email"> Email ID</lable><br />
+          <input type="text" id="email" placeholder="Enter Your E-mail" required/>
+        </div>
+
+        <div class="formGroup">
+          <lable for="message">Message</lable><br />
+          <textarea
+            placeholder="Send Some Message!"
+            id="message"
+            name="w3review"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+        </div>
+        <button class="submitButton" onclick="{submit()}">Connect</button>
+      </section>
+      
+      <!--Footer-->
+      <section>
+        <div class="social">
+          <footer class="footer">
+            <a href="https://instagram.com/a_bhishek194?igshid=ZDdkNTZiNTM="> <img class="img" src="Images/ins.jpeg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/abhishek-andhale-a89244248" ><img class="img" src="Images/linkedin.png" alt="Linkdin" ></a>
+            <a href="https://twitter.com/AbhishekAndha16?t=3gtdLyKgXp4jn3Ui4Gpvlw&s=09"><img class="img" src="Images/twi.png" alt="Twitter" ></a>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
