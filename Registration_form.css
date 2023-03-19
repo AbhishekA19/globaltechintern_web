@@ -1,0 +1,61 @@
+.main {
+    background-color: rgb(164, 229, 249);
+    border-radius: 5px;
+}
+
+.Heading {
+    text-align: center;
+}
+
+legend{
+    text-align:  center;
+}
+label{
+    font-size:19px;
+    font-weight: 150;
+}
+
+.form {
+    background-color: rgb(245, 245, 210);
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 300px;
+    padding: 25px; 
+    border-radius:5px;
+    width:30vw;
+}
+
+.info,select,textarea{
+    margin:0.20em 0em 0.5em 3em;
+    width:250px;
+    outline:none;
+    padding:0.3em;
+    border:none;
+    background-color: rgb(209, 203, 203);
+    border-radius: 0.25em;
+}
+
+#male,#female{
+    margin-left: 35px;
+}
+
+button{
+    font-size: large;
+    text-align: center;
+    
+    margin-left: 26%;
+    padding: 5px;
+    width:150px;
+    height:35px;
+    border:none;
+    outline:none;
+    background-color: rgb(68,18,232);
+    color:white;
+    border-radius: 0.25rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgb(41,4,164);
+}

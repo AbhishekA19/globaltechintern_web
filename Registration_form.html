@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="Registration_form.css">
+</head> 
+<body>
+    <div class="main">
+        <div class="Heading">
+            <h1>Global Tech Internship Registration Form</h1>
+        </div>
+        <div class="form">
+            <form> 
+                <fieldset>
+                    <legend >Registration Form</legend>
+                    <label for="name">Enter Full Name </label><br>
+                    <input type="text" id="name" class="info" placeholder="Enter Your Name"><br>
+                    <label for="Gender">Gender</label><br>
+                    <input type="radio" id="male"  name="gen" value="male">Male
+                    <input type="radio" id="female" name="gen" value="female">Female<br>
+                    <label for="email">Enter Your Email</label><br>
+                    <input type="email"  class="info"  placeholder="Enter Your Email"><br>
+                    <label for="phoneNo">Phone Number</label><br>
+                    <input type="phone"  class="info" placeholder="Enter Phone Number"><br>
+                    <label for="college">Enter College Name</label><br>
+                    <input type="text"  class="info"  id="colName" placeholder="Enter College Name"><br>
+                    <label for="deg">Degree</label><br>
+                    <select >
+                        <option value="none" selected disabled hidden>Select an Option</option>
+                        <option>Engineering</option>
+                        <option>Diploma</option>
+                        <option>Pharmacy</option>
+                        <option>Other</option>
+                    </select><br>
+                    <label for="course">Current Course</label><br>
+                    <input type="text"  class="info" placeholder="Enter Course Name"><br>
+                    <label for="query">FeedBack</label><br>
+                    <textarea calss="doubt"   placeholder="Any Query"></textarea><br>
+                    <button>Submit</button>
+                </fieldset>
+    
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
